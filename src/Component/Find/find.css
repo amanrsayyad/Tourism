@@ -1,0 +1,65 @@
+.find {
+    /* padding: 2rem calc((100vw - 1100px) / 2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.find_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.find_card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    padding: 15px;
+}
+.img1 {
+    background: url(https://www.telluride.com/site/assets/files/37553/pool_5.800x806.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+.img2 {
+    background: url(https://www.telluride.com/site/assets/files/42618/telluride_sleigh-1.800x806.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+.img3 {
+    background: url(https://www.telluride.com/site/assets/files/36793/telluride_air.800x806.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+.find_card h3 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.find_card p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .find_container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .find_card {
+        width: 400px;
+        height: 400px;
+    }
+}

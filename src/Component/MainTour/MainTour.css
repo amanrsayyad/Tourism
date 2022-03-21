@@ -1,0 +1,117 @@
+.main_bg {
+    background-color: rgb(15, 9, 24);
+    height: 10vh;
+}
+.main_tour {
+    padding: 2rem calc((100vw - 1200px) / 2);
+}
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+.room_img {
+    height: 100vh;
+    object-fit: cover;
+}
+.star_main {
+    list-style: none;
+    display: flex;
+    margin-top: 7px;
+}
+.star_list {
+    color: gold;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.tour_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan_tour > i {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.plan_tour > i {
+    font-size: 25px;
+}
+.plan_tour > span {
+    font-weight: 400;
+    font-size: 20px;
+}
+.tour_ul {
+    padding: 10px;
+    list-style: none;
+}
+.tour_li {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+.tour_li > i {
+    margin-right: 15px;
+}
+.tour_li > span {
+    font-family: cursive;
+    font-style: italic;
+
+}
+.tour_price {
+    color: blue;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+.tour_price > span {
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+.tour_two iframe {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.features_tour > h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.features_tour > h4 > i {
+    margin-right: 10px;
+}
+.features_tour > li {
+   margin-bottom: 5px;
+   font-family: cursive;
+   font-style: italic;
+   font-weight: 400;
+   font-size: 20px;
+}
+.book_tour {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px;
+    border: 3px solid blue;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .tour_div {
+        display: block;
+    }
+    .main_card {
+        text-align: center;
+    }
+}

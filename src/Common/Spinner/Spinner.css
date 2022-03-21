@@ -1,0 +1,10 @@
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.spinner iframe {
+    width: 500px;
+    height: 5000px;
+}

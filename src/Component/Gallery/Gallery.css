@@ -1,0 +1,38 @@
+.gallery {
+    background-color: rgb(0, 42, 2);
+}
+.gallery_container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.gallery_card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 500px;
+    /* background-color: rgb(0, 42, 2); */
+}
+.gallery_card h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 55px;
+    color: #fff;
+}
+.gallery_border {
+    background-image: linear-gradient(to right top, #c5c6c9, #c9ccd3, #ced2dd, #d1d9e7, #d5dff1, #cee2f7, #c5e6fc, #bbeaff, #9dedff, #78f1ff, #4ef4f7, #12f6e7);
+    height: 4px;
+    width: 80%;
+    border-radius: 3px;
+    margin: 50px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .gallery_card h2 {
+        font-size: 25px;
+    }
+    .gallery_card {
+        margin-bottom: 5rem;
+    }
+}
