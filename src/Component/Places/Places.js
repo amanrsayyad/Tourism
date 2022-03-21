@@ -14,9 +14,6 @@ const Places = () => {
 
     return (
         <div className='places'>
-            <div className="center_places">
-               <div className="places_h2">Tourism <Seprator /></div>    
-            </div>
             <div className="places_container">
                 {PlacesData.map((item) => (
                     <div className="places_card" data-aos="flip-up">

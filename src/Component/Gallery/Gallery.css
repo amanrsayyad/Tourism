@@ -33,6 +33,7 @@
         font-size: 25px;
     }
     .gallery_card {
+        margin-top: 2.5rem;
         margin-bottom: 5rem;
     }
 }

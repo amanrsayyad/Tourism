@@ -12,7 +12,7 @@ const Images = () => {
   return (
     <div className="team_bg">
     <div className="team" >
-         <div className="team__wrapper">
+         <div className="c">
              <div className="team__text animate-team">
                  <p className="topline">Gallery</p>
                  <h1>Our Memories</h1>
